@@ -1,0 +1,25 @@
+{
+  "name": "zoho",
+  "version": "1.0.0",
+  "description": "https://medium.com/swlh/weirded-out-by-zoho-crm-api-6e3fd637237d",
+  "main": "index.js",
+  "scripts": {
+    "start": "node zohoscript.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@trifoia/zcrmsdk": "^0.1.3",
+    "@zohocrm/nodejs-sdk-2.0": "^6.1.0",
+    "@zohocrm/nodejs-sdk-2.1": "^2.0.0",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "node-fetch": "^3.3.1",
+    "npm": "^9.6.7",
+    "uninstall": "^0.0.0"
+  }
+}
